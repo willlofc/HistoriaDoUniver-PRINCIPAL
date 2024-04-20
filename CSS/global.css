@@ -1,0 +1,41 @@
+@import url('background.css');/*linkando a estilização do background*/
+@import url('header.css');/*linkando a estilização do header*/
+@import url('main.css');/*Linkando a estilização do main*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #EDF1F7;
+    --red: #c50e0e;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+    --violet: #9900ff;
+    --violet-dark: #480079;
+  }
+  
+  body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  #app{/*configurando os app*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*itens no centro*/
+
+    width: 100%;/*largura 100%*/
+    height: 100vh;/*altura 100%*/
+  }
