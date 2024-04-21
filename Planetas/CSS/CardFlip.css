@@ -1,0 +1,181 @@
+.primeiro, .segundo, .terceiro, .quarto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width: 350px;
+    height: 550px;
+    margin: 60px;
+}
+
+.container:hover .flip{
+    transform: rotateY(180deg);
+}
+
+.flip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.front_terra, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_terra{
+    background-image: url(/Planetas/Conteudo/terra-top.jpeg);
+    background-size: cover;
+}
+
+.back{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--violet-dark);
+    transform: rotateY(180deg);
+}
+
+h3{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.front_marte, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_marte{
+    background-image: url(/Planetas/Conteudo/marte-top.jpeg);
+    background-size: cover;
+}
+
+.front_mercurio, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_mercurio{
+    background-image: url(/Planetas/Conteudo/mercurio-top.jpeg);
+    background-size: cover;
+}
+
+.front_venus, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_venus{
+    background-image: url(/Planetas/Conteudo/venus-top.jpeg);
+    background-size: cover;
+}
+
+.front_jupiter, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_jupiter{
+    background-image: url(/Planetas/Conteudo/jupiter-top.jpeg);
+    background-size: cover;
+}
+
+.front_saturno, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_saturno{
+    background-image: url(/Planetas/Conteudo/saturno-top.jpeg);
+    background-size: cover;
+}
+
+.front_urano, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_urano{
+    background-image: url(/Planetas/Conteudo/urano-top.jpeg);
+    background-size: cover;
+}
+
+.front_netuno, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_netuno{
+    background-image: url(/Planetas/Conteudo/netuno-top.jpeg);
+    background-size: cover;
+}
+
+.front_plutao, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_plutao{
+    background-image: url(/Planetas/Conteudo/plutao-top.jpeg);
+    background-size: cover;
+}
+
+.front_sol, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--black-two);
+    backface-visibility: hidden;/*esconder a parte que olhar da outra parte*/
+}
+
+.front_sol{
+    background-image: url(/Planetas/Conteudo/sol-top.jpeg);
+    background-size: cover;
+}
