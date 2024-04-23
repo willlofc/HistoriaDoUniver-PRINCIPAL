@@ -12,10 +12,11 @@ header{
     height: 50vh;
     width: 100%;
     color: white;
-    background-image: url(/formulario/Conteudo/perfero.jpg);
+    background-image: url(/formulario/Conteudo/space1.jpg);
     justify-content: space-between;
     padding-left: 10px;
     border-bottom: 1px solid white;
+    background-repeat: no-repeat;
     background-size: cover;
 
 }
@@ -24,11 +25,11 @@ header{
     position: absolute;
     bottom: 42%;
     line-height: 120px;
-    left: 490px;
+    left: 700px;
     font-size: 100px;
 }
 
-header img{/*configurando o logo*/
+header .imagem_top{/*configurando o logo*/
     width: 70px;
     height: auto;/*altura automática*/
 }
@@ -42,7 +43,7 @@ header img{/*configurando o logo*/
 }
 
 .navigation_link{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;/*espaço ao lado*/
     text-transform: uppercase;
@@ -76,24 +77,4 @@ header img{/*configurando o logo*/
     transition: transform 0.4s;
 }
 
-.navigation_social{
-    margin-left: auto;/*mandar os itens para a direira*/
 
-    display: flex;
-    align-items: center;
-    column-gap: 24px;
-}
-
-.navigation_social svg{
-    width: 20px;
-    height: 20px;
-    opacity: 0.6;/*opacidade quando passar por cima*/
-
-    transition: all 0.4s;
-}
-
-.navigation_social svg:hover{/*flutuando item*/
-    opacity: 1;
-    transform: translateY(-5px);/*item flutuando um pouco a cima*/
-    cursor: pointer;/*mudar cursor*/
-}

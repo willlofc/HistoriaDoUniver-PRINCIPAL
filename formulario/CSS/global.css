@@ -1,10 +1,9 @@
 @import url('header.css');
-@import url('section.css');
+@import url('mainform.css');
 
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
   }
   
   :root {
