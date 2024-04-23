@@ -20,7 +20,7 @@ header{
 
 }
 
-h1{
+.titulo{
     position: absolute;
     bottom: 42%;
     line-height: 120px;

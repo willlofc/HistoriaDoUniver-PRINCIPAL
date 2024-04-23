@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -17,7 +17,7 @@
     <div id="app"><!--Caixa para a configuração dos app-->
         <div class="img_cabeçalho">
         <header><!--Cabeçalho-->
-            <h1>FORMULÁRIO</h1>
+            <h1 class="titulo">FORMULÁRIO</h1>
             <img src="/formulario/Conteudo/saturno-removebg-preview.png" alt=""><!--linkando imagem-->
 
             <ul class="navigation"><!--Lista da barra de navegação-->
@@ -25,7 +25,7 @@
                     <a href="#" class="navigation_link">Home</a>
                 </li>
                 <li>
-                    <a href="/Planetas/CSS/planetas.html" class="navigation_link">Planetas</a>
+                    <a href="/Planetas/CSS/planetas.html" class="navigation_link">Planets</a>
                 </li>
                 <li>
                     <a href="#" class="navigation_link">Contact</a>
@@ -53,42 +53,73 @@
                   </svg>
             </div>
         </header>
-        </div>
 
-        <section class="contact" id="contact">
-
-            <div class="row">
+        <main>
+      
+            <iframe class="img"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8254909005586!2d-46.70730232395078!3d-23.64641986472403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50ff29401f01%3A0x4a3f6ef895f0119e!2sNURAP!5e0!3m2!1spt-BR!2sbr!4v1713811935102!5m2!1spt-BR!2sbr"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
     
-                <iframe class="map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8254909005495!2d-46.70730232378595!3d-23.64641986472437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50ff29401f01%3A0x4a3f6ef895f0119e!2sNURAP!5e0!3m2!1sen!2sbr!4v1713785896117!5m2!1sen!2sbr"
-                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <form action="">
-                    <h3>Preencha e tire suas duvídas</h3>
-                    <div class="inputBox">
-                        <span class="name"></span>
-                        <input type="text" placeholder="Nome">
+    
+            <div class="tab1">
+                <h2> Envie seu formulário aqui </h2>
+                <form>
+    
+                    <div>
+                        <input class="form" type="text" placeholder="Nome:">
                     </div>
-                    <div class="inputBox">
-                        <span class="social"></span>
-                        <input type="text" placeholder="Nome Social">
+                    <div>
+                        <input class="form" type="text" placeholder="Nome Social:">
                     </div>
-                    <div class="inputBox">
-                        <span class="mai"></span>
-                        <input type="email" placeholder="E-mail">
+                    <div>
+                        <input class="form" type="text" placeholder="E-mail:">
                     </div>
-                    
-                    <div class="inputBox">
-                        
-                        <input type="text" placeholder="Duvídas" class="duvidas">
-                        
+                    <div>
+                        <input class="form" type="text" placeholder="Telefone:">
                     </div>
-                    <input type="submit" value="ENVIAR" class="btn">
+                    <div>
+                        <input class="form" type="" placeholder="Duvídas:">
+                    </div>
+                    <input class="enviar" type="submit" placeholder="Enviar">
+    
                 </form>
-    
             </div>
     
-        </section>
-
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section about">
+                        <h2 class="sob">Sobre Nós</h2>
+                       <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore odit, libero ducimus vero ipsam quidem possimus, temporibus, asperiores delectus  architecto maiores iure corrupti sit sint. Ratione, quos qui nam sed maxime doloremque. Aliquid inventore dicta ducimus. Doloribus nostrum odit, deserunt aspernatur autem est consequuntur atque odio voluptatem, ipsum harum dolor.</p>
+                    </div>
+                    
+                    <div class="footer-section links">
+                        <h2>Links Úteis</h2>
+                        <ul>
+                            <li><a href="#home">Início</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section contact">
+                        <h2>Contato</h2>
+                        <p>Telefone: (11) 1234-5678</p>
+                        <p>Email: contato@empresa.com</p>
+                        <div class="socials">
+                            <img src="facebook.png">
+                            <img src="sinal-do-twitter.png">
+                            <img src="instagram.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Empresa. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+            
+        </main>
+    
 </body>
 </html>
