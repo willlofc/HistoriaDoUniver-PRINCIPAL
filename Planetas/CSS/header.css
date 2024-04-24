@@ -19,11 +19,13 @@ header{
 
 }
 
+
+
 h1{
+    margin-left: 38%;
     position: absolute;
     bottom: 42%;
     line-height: 120px;
-    left: 545px;
     font-size: 100px;
 }
 
@@ -41,7 +43,7 @@ header img{/*configurando o logo*/
 }
 
 .navigation_link{
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;/*espaço ao lado*/
     text-transform: uppercase;
@@ -96,4 +98,6 @@ header img{/*configurando o logo*/
     transform: translateY(-5px);/*item flutuando um pouco a cima*/
     cursor: pointer;/*mudar cursor*/
 }
+
+
 

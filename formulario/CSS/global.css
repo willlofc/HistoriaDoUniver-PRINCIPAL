@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('mainform.css');
+@import url('/Index.Lading/CSS/footer.css');
 
 * {
     padding: 0;
@@ -18,7 +19,8 @@
   }
   
   body{
-    background-color: var(--black);
+    background: rgb(32,0,73);
+    background: linear-gradient(0deg, rgba(32,0,73,1) 0%, rgba(0,0,0,1) 100%);
   }
 
   body, button, a {
