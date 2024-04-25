@@ -41,7 +41,8 @@
 .back{
     padding: 20px;
     text-align: center;
-    background-color: var(--violet-dark);
+    background: rgb(32,0,73);
+    background: linear-gradient(0deg, rgba(32,0,73,1) 0%, rgba(0,0,0,1) 100%);
     transform: rotateY(180deg);
 }
 

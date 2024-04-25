@@ -24,6 +24,7 @@ h1{
 .main_info{
     width: 100%;
     max-width: 570px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main_info p{

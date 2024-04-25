@@ -12,10 +12,11 @@ header{
     height: 50vh;
     width: 100%;
     color: white;
-    background-image: url(/formulario/Conteudo/space1.jpg);
+    background-image: url(/formulario/Conteudo/astronauta3.jpg);
     justify-content: space-between;
     padding-left: 10px;
     border-bottom: 1px solid white;
+    background-position-y: -210px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -23,15 +24,43 @@ header{
 
 .titulo{
     position: absolute;
-    left: 500px;
-    bottom: 38%;
-    left: 600px;
+    bottom: 42%;
+    line-height: 120px;
+    left: 50%;
+    margin-left: -300px;
     font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header .imagem_top{/*configurando o logo*/
     width: 70px;
     height: auto;/*altura automática*/
+}
+
+input{
+    float: none;
+    display: block;
+    text-align: left;
+    width: 200px;
+    height: 25px;
+    margin: auto auto;
+    padding: 2px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    height: 32px;
+    width: 30px;
+    margin: auto auto;
+}
+
+.search{
+    margin-left: auto;/*mandar os itens para a direira*/
+
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
 }
 
 .navigation{/*configurando a barra de navegação*/
@@ -43,7 +72,7 @@ header .imagem_top{/*configurando o logo*/
 }
 
 .navigation_link{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;/*espaço ao lado*/
     text-transform: uppercase;
