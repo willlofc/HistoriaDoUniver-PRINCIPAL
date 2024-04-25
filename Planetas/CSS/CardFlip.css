@@ -34,7 +34,7 @@
 }
 
 .front_terra{
-    background-image: url(/Planetas/Conteudo/terra-top.jpeg);
+    background-image: url(Planetas/Conteudo/terra-top.jpeg);
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ p{
 }
 
 .front_marte{
-    background-image: url(/Planetas/Conteudo/marte-top.jpeg);
+    background-image: url(Planetas/Conteudo/marte-top.jpeg);
     background-size: cover;
 }
 
@@ -79,7 +79,7 @@ p{
 }
 
 .front_mercurio{
-    background-image: url(/Planetas/Conteudo/mercurio-top.jpeg);
+    background-image: url(Planetas/Conteudo/mercurio-top.jpeg);
     background-size: cover;
 }
 
@@ -93,7 +93,7 @@ p{
 }
 
 .front_venus{
-    background-image: url(/Planetas/Conteudo/venus-top.jpeg);
+    background-image: url(Planetas/Conteudo/venus-top.jpeg);
     background-size: cover;
 }
 
@@ -107,7 +107,7 @@ p{
 }
 
 .front_jupiter{
-    background-image: url(/Planetas/Conteudo/jupiter-top.jpeg);
+    background-image: url(Planetas/Conteudo/jupiter-top.jpeg);
     background-size: cover;
 }
 
@@ -121,7 +121,7 @@ p{
 }
 
 .front_saturno{
-    background-image: url(/Planetas/Conteudo/saturno-top.jpeg);
+    background-image: url(Planetas/Conteudo/saturno-top.jpeg);
     background-size: cover;
 }
 
@@ -135,7 +135,7 @@ p{
 }
 
 .front_urano{
-    background-image: url(/Planetas/Conteudo/urano-top.jpeg);
+    background-image: url(Planetas/Conteudo/urano-top.jpeg);
     background-size: cover;
 }
 
@@ -149,7 +149,7 @@ p{
 }
 
 .front_netuno{
-    background-image: url(/Planetas/Conteudo/netuno-top.jpeg);
+    background-image: url(Planetas/Conteudo/netuno-top.jpeg);
     background-size: cover;
 }
 
@@ -163,7 +163,7 @@ p{
 }
 
 .front_plutao{
-    background-image: url(/Planetas/Conteudo/plutao-top.jpeg);
+    background-image: url(Planetas/Conteudo/plutao-top.jpeg);
     background-size: cover;
 }
 
@@ -177,6 +177,6 @@ p{
 }
 
 .front_sol{
-    background-image: url(/Planetas/Conteudo/sol-top.jpeg);
+    background-image: url(Planetas/Conteudo/sol-top.jpeg);
     background-size: cover;
 }

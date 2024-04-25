@@ -1,6 +1,6 @@
 @import url('CardFlip.css');/*linkando a estilização das card*/
 @import url('header.css');/*linkando a estilização do header*/
-@import url('/Index.Lading/CSS/footer.css');/*linkando a estilização do footer*/
+@import url('Index.Lading/CSS/footer.css');/*linkando a estilização do footer*/
 
 * {
     padding: 0;
